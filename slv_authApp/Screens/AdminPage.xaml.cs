@@ -1,5 +1,4 @@
-﻿using slv_authApp.Screens;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,18 +13,21 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace slv_authApp
+namespace slv_authApp.Screens
+
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для AdminPage.xaml
     /// </summary>
-    public partial class MainWindow : NavigationWindow
+    public partial class AdminPage : Page
     {
-        public MainWindow()
+        private Users user;
+        public AdminPage(Users user)
         {
+            this.user = user;
             InitializeComponent();
-            NavigationService.Navigate(new Auth());
-            this.ShowsNavigationUI = false;
+            username.Content = $"Username: {user.login} Password {user.password}";
+
         }
     }
 }

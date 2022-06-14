@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\User\source\repos\slv_authApp\slv_authApp\obj\Debug\
+C:\Users\User\Desktop\slv_authApp\slv_authApp\slv_authApp\obj\Debug\
 slv_authApp
 none
 false
 DEBUG;TRACE
-C:\Users\User\source\repos\slv_authApp\slv_authApp\App.xaml
-1219584333
+C:\Users\User\Desktop\slv_authApp\slv_authApp\slv_authApp\App.xaml
+5278395858
 2-1957146511
-131346382644
-18-1086699541
-MainWindow.xaml;
+17462385955
+18464209023
+MainWindow.xaml;Screens\AdminPage.xaml;Screens\Auth.xaml;Screens\Registration.xaml;Screens\UserPage.xaml;
 
 False
 

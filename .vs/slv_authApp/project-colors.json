@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "be72e264-ebd5-401c-bff8-c1d5453713b5": {
+      "ProjectGuid": "be72e264-ebd5-401c-bff8-c1d5453713b5",
+      "DisplayName": "slv_authApp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
